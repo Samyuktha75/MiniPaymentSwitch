@@ -1,0 +1,13 @@
+
+# Maven generated files
+target/
+
+# IntelliJ files
+.idea/
+*.iml
+
+# Java compiled files
+*.class
+
+# Logs
+*.log

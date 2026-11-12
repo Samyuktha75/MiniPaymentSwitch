@@ -26,5 +26,8 @@ public class PaymentTransaction {
   public void setstatus(String status){
         this.status=status;
   }
+    public boolean isApproved() {
+        return "APPROVED".equals(status);
+    }
 
 }
